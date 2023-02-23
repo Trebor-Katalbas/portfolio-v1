@@ -51,13 +51,7 @@ body{
     border-radius: 50%;
     background: linear-gradient(to right, var(--main-color), #1597BB);
     animation: rotate 15s infinite;
-}
-#blur{
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    z-index: -2;
-    backdrop-filter: blur(140px);
+    filter: blur(140px);
 }
 @keyframes rotate{
     from{
