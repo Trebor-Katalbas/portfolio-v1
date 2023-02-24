@@ -33,7 +33,7 @@ hiddenElements10.forEach((el) => observer.observe(el));
 hiddenElements11.forEach((el) => observer.observe(el));
 
 // Glitch effect 
-const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 document.querySelector('h1').onmouseover = event =>{
     let iter = 0;
