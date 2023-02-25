@@ -83,12 +83,17 @@ body{
     filter: blur(5px);
     transition: all 0.5s;
 }
+.p-logo .logo3{
+    width: 120px;
+    margin-bottom: 20px;
+}
 .p-logo:hover{
     transform: rotate(32deg) scale(0.8);
 }
 .logo{
     z-index: -10;
-    width: 200px;
+    width: 100px;
+    margin-bottom: 5px;
     cursor: pointer;
     transition: 0.5s ease;
     margin-top: 10%;
@@ -96,7 +101,7 @@ body{
     transition: all 0.5s;
 }
 .logo:hover{
-    transform: rotate(32deg) scale(1.7);
+    transform: rotate(32deg) scale(1.4);
 }
 .navbar{
     width: 100%;
@@ -118,7 +123,7 @@ nav ul li a{
     position: relative;
     text-decoration: none;
     color: var(--text-color);
-    font-size: 50px;
+    font-size: 45px;
     transition: all 0.50s ease;
 }
 nav ul li a::before {
@@ -159,7 +164,8 @@ nav ul li a:hover::before {
     filter: blur(5px);
 }
 .pic .logo2{
-    width: 750px;
+    margin-top: 20px;
+    width: 500px;
 }
 .txt-container{
     display: flex;
@@ -224,7 +230,7 @@ nav ul li a:hover::before {
     color: var(--main-color);
 }
 h2{
-    margin-top: 10%;
+    margin-top: 1%;
     display: flex;
     align-items: center;
     justify-content: center;
